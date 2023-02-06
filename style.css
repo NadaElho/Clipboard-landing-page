@@ -33,7 +33,7 @@ section {
 h1,
 h2,
 h3 {
-  font-size: 32px;
+  font-size: 38px;
   color: hsl(210, 10%, 33%);
 }
 h3 {
@@ -41,8 +41,11 @@ h3 {
 }
 p {
   color: hsl(201, 11%, 66%);
-  padding: 20px 0;
-  line-height: 1.7;
+    padding: 20px 0;
+    line-height: 1.7;
+    max-width: 100%;
+    width: 431px;
+    margin: 0 auto;
 }
 button {
   display: block;
@@ -138,7 +141,7 @@ footer .icons img:not(:last-of-type) {
   }
   .snippets img {
     width: 50%;
-    margin-left: -38px;
+    margin-left: -47px;
   }
   .snippets div {
     text-align: left;
