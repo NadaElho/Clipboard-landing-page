@@ -104,7 +104,7 @@ footer ul {
   list-style-type: none;
 }
 footer ul li {
-  margin: 20px;
+  margin: 20px auto;
   width: -moz-fit-content;
   width: fit-content;
   color: hsl(210, 10%, 33%);
@@ -171,6 +171,7 @@ footer .icons img:not(:last-of-type) {
     text-align: left;
   }
   footer ul li {
+    margin: 20px;
     margin-top: 0;
   }
   footer ul:last-of-type li {
